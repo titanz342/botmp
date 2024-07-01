@@ -15,8 +15,6 @@ def example_func(a, b=10, *args, **kwargs):
 argspec = inspect.getfullargspec(example_func)
 print(argspec)
 
-print("Iniciando o bot...")
-
 # Configurar o logger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger()
