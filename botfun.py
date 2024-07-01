@@ -7,6 +7,13 @@ from PIL import Image
 from io import BytesIO
 import time
 import logging
+import inspect
+
+def example_func(a, b=10, *args, **kwargs):
+    pass
+
+argspec = inspect.getfullargspec(example_func)
+print(argspec)
 
 print("Iniciando o bot...")
 
