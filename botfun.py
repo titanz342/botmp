@@ -8,6 +8,7 @@ from io import BytesIO
 import time
 import logging
 import inspect
+import app
 
 def example_func(a, b=10, *args, **kwargs):
     pass
