@@ -1,2 +1,2 @@
-web: gunicorn app:botfun
+web: gunicorn botfun:app
 worker: python botfun.py
