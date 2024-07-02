@@ -9,6 +9,7 @@ import time
 import logging
 import inspect
 import app
+import six 
 
 def example_func(a, b=10, *args, **kwargs):
     pass
